@@ -67,6 +67,7 @@ body {
 }
 #right span{
     padding-left: 2em;
+    width: 65%;
 }
 #right span b{
     font-size: 32px;
