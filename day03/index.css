@@ -52,6 +52,7 @@ body {
 #right{
     display: inline-block;
     width: 69%;
+    height: 2000px;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
