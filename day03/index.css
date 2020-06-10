@@ -52,12 +52,11 @@ body {
     width: 65%;
     margin: 0;
     background-color: #f8f8f8;
-    padding-left: 0;
+    margin-left: 0;
 }
 #right .tables{
     text-align: center;
-    width: 60%;
-    margin: 10px auto;
+    width: 50%;
 }
 .price::before {
     content: '￥';
