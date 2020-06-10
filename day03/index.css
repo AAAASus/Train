@@ -1,0 +1,82 @@
+body {
+    margin:0;
+}
+/* table{
+
+} */
+#header {
+    height: 50px;
+    text-align: center;
+    background-image: url(./images/title.png);
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+#bookstore{
+   font-size: 40px; 
+   margin: 0; 
+   padding: 40px;
+}
+#header .icon{
+    height: 35px;
+    vertical-align: middle;
+}
+#left {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    background-color: #eff5f3;
+    padding: 0px;
+}
+#left ul{
+    list-style-type: none;
+    line-height: 35px;
+    padding-left: 0;
+}
+#left ul li{
+    border-bottom: 1px solid gray;
+}
+#left ul li a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    }
+#left ul li a:hover{
+    background-color: lightcyan;
+    }
+
+#right{
+    display: inline-block;
+    width: 60%;
+    margin: 0;
+    background-color: #f8f8f8;
+    padding-left: 0;
+}
+#right .tables{
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+}
+.price::before {
+    content: '￥';
+}
+.book_img{
+    width: 200px;
+    height: 200px;
+}
+#right span{
+    padding-left: 2em;
+}
+#right span b{
+    font-size: 32px;
+}
+#right p{
+    font-size: 20px;
+}
+#footer {
+    height: 25px;
+    text-align: center;
+    background-color: rgb(200, 243, 237);
+}
