@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+}
+html, body {
+    position: relative;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+.header {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    background-color: #8909a357;
+}
+.wrap {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding: 0px 80px; */
+    color: #f2f2f2;
+}
+.header div p{
+    display: inline-block;
+    height: 30px;
+    line-height: 50px;
+}
+.left-header {
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+.left-header img {
+     width: 5%;
+     height: 5%;
+}
+.right-header {
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+}
+
+.info-group {
+    position: relative;
+    margin: 20px 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.like{
+    font-size: 25px;
+    font-weight: bold;
+    color: #8909a39d;
+}
+.info-group img{
+    width: 150px;
+    height: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.show_group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 40px;
+}
+.show-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8909a3;
+}
+.self-box{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color:  #580768a9;
+}
+.self-box p {
+    /* position: relative; */
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15% ;
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 8%;
+    max-width: 450px;
+    margin-top: 20px;
+    margin-right: 60px;
+    color:#eeeeee;
+}
+.self img {
+    display: inline-block;
+    float: right;
+    width: 18%;
+    height: 72%;
+    padding-top: 20px;
+    padding-right: 15%;
+}
+.footer {
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #8909a357;
+    color: #f2f2f2;
+    text-align: center;
+}
+@media (max-width: 800px){
+    .self-desc {
+        padding: 0px;
+    }
+    .self-desc img {
+        display: none;
+    }
+    .self-wrap {
+        padding: 0;
+    }
+    .self-wrap p {
+        font-size: 12px;
+        padding: 0px 10px;
+        text-indent: 2em;
+        margin: 20px;
+    }
+}
