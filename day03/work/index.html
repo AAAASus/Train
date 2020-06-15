@@ -8,75 +8,83 @@
     <link rel="stylesheet" href="./index.css" />
 </head>
 <body>
-    <div id="all">
-        <div class="header">
-            <div class="wrap">
-                <div class="left-header">
-                    <img src="./image/panda.png" alt=""> <p> 家庭的个人爱好~</p>
-                </div>
-                <div class="right-header">
-                    <p><a href="#like1">喜欢的电影</a>&nbsp;&nbsp;<a href="#like2">喜欢的书</a>&nbsp;&nbsp;<a href="#talk">聊一聊</a></p>
-                </div>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <img src="./image/panda.png" alt="logo" class="icon">
+                <span>&nbsp;家庭的个人爱好</span>
             </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#like1">喜欢的电影</a></li>
+                    <li><a href="#like2">喜欢的书</a></li>
+                    <li><a href="#like3">聊一聊</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="row">
-            <div class="info-group" id="like1">
-                <p class="like">喜欢的电影</p> 
-                <div class="show_group">
-                    <div class="show-item">
-                        <img src="./image/怦然心动.jpg" alt=""/>
-                        <p>《怦然心动》</p>
-                    </div>
-                    <div class="show-item">
-                        <img src="./image/真爱至上.jpg" alt=""/>
-                        <p>《真爱至上》</p>
-                    </div>
-                    <div class="show-item">
-                        <img src="./image/假如爱有天意.jpg" alt=""/>
-                        <p>《假如爱有天意》</p>
-                    </div>
-                    <div class="show-item">
-                        <img src="./image/海蒂和爷爷.jpg" alt=""/>
-                        <p>《海蒂和爷爷》</p>
-                    </div>
+    </header>
+    <section>
+        <div class="container column">
+            <h2 class="section-title" id="like1">喜欢的电影</h2>
+            <ul class="gallery">
+                <li>
+                    <img src="./image/怦然心动.jpg" alt=""/>
+                    <h4>《怦然心动》</h4>
+                </li>
+                <li>
+                    <img src="./image/真爱至上.jpg" alt=""/>
+                    <h4>《真爱至上》</h4>
+                </li>
+                <li>
+                    <img src="./image/假如爱有天意.jpg" alt=""/>
+                    <h4>《假如爱有天意》</h4>
+                </li>
+                <li>
+                    <img src="./image/海蒂和爷爷.jpg" alt=""/>
+                    <h4>《海蒂和爷爷》</h4>
+                </li>
+                </ul>
+        </div>
+        <div class="container column">
+            <h2 class="section-title" id="like2">喜欢的书</h2>
+            <ul class="gallery">
+                <li>
+                    <img src="./image/活着.jpg" alt=""/>
+                    <h4>《活着》</h4>
+                </li>
+                <li>
+                    <img src="./image/看见.jpg" alt=""/>
+                    <h4>《看见》</h4>
+                </li>
+                <li>
+                    <img src="./image/半生缘.jpg" alt=""/>
+                    <h4>《半生缘》</h4>
+                </li>
+                <li>
+                    <img src="./image/我不怕这漫长的黑夜.jpg" alt=""/>
+                    <h4>《我不怕这漫长黑夜》</h4>
+                </li>
+            </ul>
+        </div>                    
+    </section>
 
-                </div>
+    <footer>
+        <div class="container" id="like3">
+                <div class="left">
+                “只要人人都献出一份爱,世界将变成美好的人间。”
+                <br>——《爱的奉献》。
+                <br>
+                扫描右边二维码，即可捐赠您的爱心。
+
             </div>
-        </div>
-        <div class="row">
-            <div class="info-group" id="like2" >
-                <p class="like">喜欢的书</p> 
-                <div class="show_group">
-                    <div class="show-item">
-                        <img src="./image/活着.jpg" alt=""/>
-                        <p>《活着》</p>
-                    </div>
-                    <div class="show-item">
-                        <img src="./image/看见.jpg" alt=""/>
-                        <p>《看见》</p>
-                    </div>
-                    <div class="show-item">
-                        <img src="./image/半生缘.jpg" alt=""/>
-                        <p>《半生缘》</p>
-                    </div>
-                    <div class="show-item">
-                        <img src="./image/我不怕这漫长的黑夜.jpg" alt=""/>
-                        <p>《我不怕这漫长黑夜》</p>
-                    </div>
-                </div>
+            <div class="right">
+                <img src="./image/vxpay.jpg" alt="微信收款码" />
             </div>
+           
         </div>
-        <div class="row">
-            <div class="self" id="talk">
-                <div class="self-box">
-                    <p>聊一聊~我是一个憨憨，喜欢看好看的电影，好看的书。但却没钱去买，扫描右边二维码，即可捐赠您的爱心，只要人人献出一点爱，这世界将变成美好的人间。</p>
-                    <img src="./image/vxpay.jpg" alt="微信收款码" />
-                </div>
+         <div class="button">
+                版权所有&copy;AAAA_SUS
             </div>
-        </div>
-        <div class="footer">
-            版权所有&copy;AAAA_SUS
-        </div>
-    </div>
+    </footer>
 </body>
 </html>
