@@ -21,6 +21,9 @@ body {
     height: 35px;
     vertical-align: middle;
 }
+h1{
+    text-align: center;
+}
 #left {
     display: inline-block;
     vertical-align: top;
@@ -44,6 +47,8 @@ body {
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
+    color: rgb(17, 158, 139);
+    font-size: 20px;
     }
 #left ul li a:hover{
     background-color: lightcyan;
@@ -56,6 +61,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
 }
 #right .tables{
     text-align: center;
@@ -71,13 +82,17 @@ body {
     width: 200px;
     height: 200px;
 }
-#right span{
+h4{
+    font-size: 23px;
+}
+p{
     padding: 0;
     margin: 0;
+    text-indent: 2em;
 }
-#right span b{
-    padding-left: 1em;
+p:first-letter{
     font-size: 32px;
+    color:rgb(17, 158, 139) ;
 }
 #right p{
     font-size: 20px;
