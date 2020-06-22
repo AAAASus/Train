@@ -19,8 +19,7 @@ $(function() {
       //设置弹幕体出现时的上边距，为任意值
       var top = Math.random() * $screen.height();
       top = top < $screen.height ? 10+"px" : top;
-      //随机速度
-      var speed = parseInt(Math.random() *50)+1;
+      
       //设置弹幕体的上边距和左边距
       $content.css({
         "position": 'absolute',
@@ -36,7 +35,7 @@ $(function() {
       //弹幕体从右端移动到最左侧，然后直接删除该元素
       $content.animate({
         right: $screen.width()-60+$content.width()
-      }, 2000, function() {
+      }, 2000,function() {
         $(this).remove();
       });
     });
@@ -45,3 +44,5 @@ $(function() {
       $('.dm_show').empty();
     });
   });
+
+  
