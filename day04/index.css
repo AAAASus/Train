@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  display: flex;
+  margin: 0;
+
+}
+
+.con {
+  background-color: rgb(254, 255, 228);
+  padding: 40px 80px 10px;
+}
+#screen {
+  position: relative;
+  background-image: url(./背景.jpg);
+  background-repeat: round;
+  width: 780px ; 
+  height: 500px;
+  border: 1px solid rgb(229, 229, 229);
+  font-size: 14px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.content {
+  border: 1px solid rgb(223, 224, 173);
+  border-radius: 3px;
+  width: 320px;
+  height: 35px;
+  font-size: 14px;
+  margin-top: 30px;
+
+}
+.send {
+  border: 2px solid rgb(223, 224, 173);
+  color:rgb(120, 122, 1);
+  border-radius: 3px;
+  text-align: center;
+  padding: 0;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  width: 159px;
+  background-color: white;
+}
+.edit input:hover{
+  background-color: rgb(218, 221, 45);
+}
+
+.clear {
+  border: 2px solid;
+  color: darkgray;
+  border-radius: 3px;
+  text-align: center;
+  padding: 0;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  width: 159px;
+  background-color: white;
+}
+
+.edit {
+  margin: 20px;
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+}
+
+.dm_show{
+  margin: 30px;
+}
+#footer{
+  text-align: center;
+  background-color: rgb(218, 221, 45);
+  color: white;
+  padding: 8px;
+}
