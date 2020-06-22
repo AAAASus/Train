@@ -33,7 +33,7 @@ $(function() {
       });
       //将弹幕体添加到弹幕墙中
       $('.dm_show').append($content);
-      //弹幕体从左端移动到最右侧，时间为8秒，然后直接删除该元素
+      //弹幕体从右端移动到最左侧，然后直接删除该元素
       $content.animate({
         right: $screen.width()-60+$content.width()
       }, 2000, function() {
