@@ -28,7 +28,7 @@ h1{
     display: inline-block;
     vertical-align: top;
     width: 30%;
-    height: 2000px;
+    height: 2050px;
     background-color: #eff5f3;
     padding: 0;
     margin: 0;
@@ -57,7 +57,7 @@ h1{
 #right{
     display: inline-block;
     width: 69%;
-    height: 2000px;
+    height: 2050px;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
