@@ -4,18 +4,21 @@ $(function() {
       //获取文本输入框的内容
       var val = $('.content').val();
       //将文本框的内容赋值给val后，将文本框的内容清除，以便用户下一次输入
-    //   $('.content').val('');
+      $('.content').val('');
       //将文本框内容用div包裹起来，便于后续处理
       var $content = $('<div class="text">' + val + '</div>');
       //获取弹幕墙对象
       $screen = $(document.getElementById("screen"));
       //随机颜色
       var color1 = parseInt(Math.random() * 256);
-	  var color2 = parseInt(Math.random() * 256);
-	  var color3 = parseInt(Math.random() * 256);
-	  var color = "rgb(" + color1 + "," + color2 + "," + color3 + ")";
+	    var color2 = parseInt(Math.random() * 256);
+	    var color3 = parseInt(Math.random() * 256);
+	    var color = "rgb(" + color1 + "," + color2 + "," + color3 + ")";
       //随机大小
       fontsize =  Math.floor((Math.random()* 20) + 15);
+      //随机速度
+      // var speed = Math.random()*10000+5000;
+      // console.log(speed);
       //设置弹幕体出现时的上边距，为任意值
       var top = Math.random() * $screen.height();
       top = top < $screen.height ? 10+"px" : top;
