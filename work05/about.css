@@ -1,0 +1,28 @@
+.container{
+    padding-top: 50px;   
+}
+.container p{
+    font-family: 楷体;
+    text-indent: 2em;
+}
+.title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 52px;
+    padding-top: 60px;
+    font-weight: bold;
+    font-family: 宋体;
+    padding-bottom: 10px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    display: block;
+    list-style-type: none;
+}
+.something img{
+    width: 50px;
+    height: 50px;
+}
