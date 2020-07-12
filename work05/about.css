@@ -5,24 +5,49 @@
     font-family: 楷体;
     text-indent: 2em;
 }
-.title{
+.about-title{
     margin: 0 auto;
     text-align: center;
     font-size: 52px;
     padding-top: 60px;
     font-weight: bold;
-    font-family: 宋体;
+    font-family: 等线黑体;
     padding-bottom: 10px;
+}
+.container.about{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.container.about .left{
+    width: 70%;
+    height: 600px;
 }
 iframe{
     width: 100%;
     height: 100%;
 }
-ul{
-    display: block;
+.container.about .right{
+    width: 30%;
+    height: 600px;
+}
+.container.about .right p{
+    padding-left: 0;
+}
+
+.container.about .right .something ul{
+    /* display: block; */
     list-style-type: none;
 }
+.something ul li{
+    padding-top: 10px;
+}
 .something img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+}
+.something span{
+    font-family: 等线黑体;
 }

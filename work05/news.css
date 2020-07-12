@@ -1,0 +1,36 @@
+.news-title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 52px;
+    padding-top: 60px;
+    font-weight: bold;
+    font-family: 等线黑体;
+    padding-bottom: 10px;
+}
+.list-group :hover{
+    background-color: rgb(236, 234, 234);
+}
+.list-group-item img{
+    width: 200px;
+    height: 200px;
+}
+.list-group-item a{
+    text-decoration: none;
+}
+.list-group-item .bt{
+    color: black;
+    font-family: 宋体;
+    font-size: 28px;
+}
+.list-group-item .bt:hover{
+    color: red;
+}
+.list-group-item p{
+    color: gray;
+    text-indent: 2em;
+    font-family: 宋体;
+}
+.list-group-item .item .time{
+    color: gray;
+    font-family: 宋体;
+}

@@ -35,7 +35,7 @@
 .container p{
     display: block; 
     color: black; 
-    text-align: center;
+    /* text-align: center; */
 }
 .container img{
     width: 300px;
