@@ -22,7 +22,7 @@
     justify-content: space-between;
 }
 .container.about .left{
-    width: 70%;
+    width: 65%;
     height: 600px;
 }
 iframe{
@@ -50,4 +50,22 @@ iframe{
 }
 .something span{
     font-family: 等线黑体;
+}
+
+@media screen and (max-width:500px){
+    .container.about .right p{
+        font-size: 15px;
+    }
+    .something img{
+        width: 30px;
+        height: 30px;
+    }
+    .something span{
+        font-size: 15px;
+    }
+}
+@media (min-width: 615px){
+   .container {
+    max-width: 960px;
+   }
 }

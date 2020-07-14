@@ -7,6 +7,9 @@
     font-family: 等线黑体;
     padding-bottom: 10px;
 }
+/* .row{
+    flex-direction: column;
+} */
 .list-group :hover{
     background-color: rgb(236, 234, 234);
 }
@@ -34,3 +37,4 @@
     color: gray;
     font-family: 宋体;
 }
+

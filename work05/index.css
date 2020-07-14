@@ -164,3 +164,26 @@ footer img{
 .news li a :hover{
     color: rgb(215,215,215);
 }
+
+
+@media screen and (max-width:400px){
+    .container.induction .right h4{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: 700;
+        font-size: 28px;
+        font-family: 等线黑体;
+    }
+    .container.induction .right span{
+        text-indent: 2em;
+        padding-left: 48px;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: 等线黑体;
+    }
+}
+@media screen and (max-width:220px){
+    .container.induction .right span{
+        font-size: 10px;
+    }
+}
