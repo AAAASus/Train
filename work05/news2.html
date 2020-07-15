@@ -26,13 +26,13 @@
           <div class="collapse navbar-collapse " id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">首页</a>
+                <a class="nav-link" href="./index.html" onclick="_czc.push(['_trackEvent', '首页', '返回首页', '首页']);">首页</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="./news.html">新闻 <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./news.html" onclick="_czc.push(['_trackEvent', '新闻列表', '新闻列表', '新闻列表']);">新闻列表 <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">关于我们</a>
+                <a class="nav-link" href="./about.html" onclick="_czc.push(['_trackEvent', '关于我们', '关于我们', '关于我们']);">关于我们</a>
               </li>
             </ul>
           </div>
@@ -50,7 +50,7 @@
        <ul class="list-group">
         <li class="list-group-item">
           <img src="./images/宫崎骏.jpg" alt="">
-          <a href="./news-detail/detail3.html" target="_blank" class="selectarcpost">
+          <a href="./news-detail/detail3.html"  onclick="_czc.push(['_trackEvent', '新闻列表', '跳转', '新闻内容']);">
               <div class="bt">宫崎骏新作3年只完成15% 每月只能完成一分钟画面</div>
              <div class="item">
                 <span class="time"><i></i>发布日期：2019-12-23</span>
@@ -63,9 +63,9 @@
         
         <br>         
         <ul class="pagination pagination-lg justify-content-center">
-          <li class="page-item"><a class="page-link" href="./news.html">1</a></li>
-          <li class="page-item"><a class="page-link" href="./news1.html">2</a></li>
-          <li class="page-item active"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="./news.html" onclick="_czc.push(['_trackEvent', '分页', '跳转', '第一页']);">1</a></li>
+          <li class="page-item"><a class="page-link" href="./news1.html" onclick="_czc.push(['_trackEvent', '分页', '跳转', '第二页']);">2</a></li>
+          <li class="page-item active"><a class="page-link" href="#" onclick="_czc.push(['_trackEvent', '分页', '跳转', '第三页']);">3</a></li>
         </ul>
       </div>
       <br>
