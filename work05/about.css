@@ -1,5 +1,5 @@
 .container{
-    padding-top: 50px;   
+    padding-top: 10px;   
 }
 .container p{
     font-family: 楷体;
@@ -14,58 +14,70 @@
     font-family: 等线黑体;
     padding-bottom: 10px;
 }
-.container.about{
+/* .container.about{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     padding-top: 10px;
     justify-content: space-between;
-}
-.container.about .left{
-    width: 65%;
+} */
+.container .left{
+    width: 100%;
     height: 600px;
+    padding-top: 0;
 }
 iframe{
     width: 100%;
     height: 100%;
+    text-align: center;
 }
-.container.about .right{
-    width: 30%;
-    height: 600px;
-}
-.container.about .right p{
-    padding-left: 0;
+.container  .right{
+    width: 100%;
+    /* height: 400px; */
+    padding-top: 20px;
 }
 
-.container.about .right .something ul{
+
+.something ul{
     /* display: block; */
     list-style-type: none;
+    padding-left: 0;
+    text-align: center;
 }
 .something ul li{
     padding-top: 10px;
 }
 .something img{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 .something span{
     font-family: 等线黑体;
 }
 
-@media screen and (max-width:500px){
-    .container.about .right p{
-        font-size: 15px;
+/* @media screen and (max-width:600px){
+    .container .right p{
+        font-size: 5px;
     }
     .something img{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
     .something span{
         font-size: 15px;
     }
 }
-@media (min-width: 615px){
+@media screen and  (min-width: 615px){
    .container {
     max-width: 960px;
    }
 }
+@media screen and (max-width:170px){
+    .something span{
+        font-size: 5px;
+    }
+    .something img{
+        width: 15px;
+        height: 15px;
+    }
+} */
