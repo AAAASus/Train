@@ -36,7 +36,9 @@ iframe{
     /* height: 400px; */
     padding-top: 20px;
 }
-
+.container  .right p{
+    font-size: 28px;
+}
 
 .something ul{
     /* display: block; */
@@ -53,6 +55,7 @@ iframe{
 }
 .something span{
     font-family: 等线黑体;
+    font-size: 28px;
 }
 
 /* @media screen and (max-width:600px){
